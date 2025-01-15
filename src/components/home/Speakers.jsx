@@ -56,7 +56,7 @@ const Speakers = () => {
       </ul> */}
 
       <div className="px-5 lg:px-10 overflow-hidden  text-clip">
-        <All />
+        {/* <All /> */}
       </div>
     </section>
   );

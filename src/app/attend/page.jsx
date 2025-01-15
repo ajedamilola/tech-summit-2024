@@ -148,53 +148,99 @@ const Attend = () => {
             name="hearingMethod"
           >
             <option className="hidden" value={""}>Select an option</option>
-            <option value={"0"}>Social Media</option>
+            <option value={"0"}>Social Media (Facebook, Instagram, Twitter, LinkedIn)  </option>
             <option value={"1"}>Word of Mouth</option>
-            <option value={"2"}>Other</option>
+            <option value={"2"}>Online Advertisement  </option>
+            <option value={"3"}>Community Group or Organization  </option>
+            <option value={"4"}>Flyer or Poster  </option>
+            <option value={"5"}>Radio/TV  </option>
+            <option value={"6"}>email Invitation  </option>
+            <option value={"7"}>Previous Expo Attendance  </option>
+            <option value={"8"}>Other Other  </option>
           </select>
         </div>
 
         <div>
-          <label className="text-gray-400 mb-4">Registration Type:</label>
+  <label className="text-gray-400 mb-4">Registration Type:</label>
 
-          <div className="flex items-center mt-3 mb-4">
-            <input
-              id="checkbox-1"
-              type="radio"
-              value="1"
-              name="regType"
-              required
-              className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
-              checked={formData.regType == "1"}
-              onChange={handleChange}
-            />
-            <label
-              for="checkbox-1"
-              className="ms-2 text-sm font-medium text-gray-900 "
-            >
-              General Attendee
-            </label>
-          </div>
+  <div className="flex items-center mt-3 mb-4">
+    <input
+      id="checkbox-1"
+      type="radio"
+      value="1"
+      name="regType"
+      required
+      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+      checked={formData.regType == "1"}
+      onChange={handleChange}
+    />
+    <label
+      htmlFor="checkbox-1"
+      className="ms-2 text-sm font-medium text-gray-900"
+    >
+      General Attendee
+    </label>
+  </div>
+  
+  <div className="flex items-center mt-3 mb-4">
+    <input
+      id="checkbox-3"
+      type="radio"
+      value="3"
+      name="regType"
+      required
+      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+      checked={formData.regType == "3"}
+      onChange={handleChange}
+    />
+    <label
+      htmlFor="checkbox-3"
+      className="ms-2 text-sm font-medium text-gray-900"
+    >
+      Investor
+    </label>
+  </div>
 
-          <div className="flex items-center mb-4">
-            <input
-              id="checkbox-1"
-              type="radio"
-              name="regType"
-              value="2"
-              required
-              className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
-              onChange={handleChange}
-              checked={formData.regType == "2"}
-            />
-            <label
-              for="checkbox-1"
-              className="ms-2 text-sm font-medium text-gray-900 "
-            >
-              Student Attendee (Please provide valid student ID at check-in)
-            </label>
-          </div>
-        </div>
+  <div className="flex items-center mb-4">
+    <input
+      id="checkbox-2"
+      type="radio"
+      name="regType"
+      value="2"
+      required
+      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+      onChange={handleChange}
+      checked={formData.regType == "2"}
+    />
+    <label
+      htmlFor="checkbox-2"
+      className="ms-2 text-sm font-medium text-gray-900"
+    >
+      Student Attendee (Please provide valid student ID at check-in)
+    </label>
+  </div>
+
+  {/* File upload section that shows when "Student Attendee" is selected */}
+  {formData.regType === "2" && (
+    <div className="mt-4">
+      <label
+        htmlFor="student-id-upload"
+        className="block text-sm font-medium text-gray-900"
+      >
+        Upload Your Student ID
+      </label>
+      <input
+        id="student-id-upload"
+        type="file"
+        name="studentID"
+        accept="image/*,application/pdf"
+        className="w-full mt-2 text-sm text-gray-900 border border-gray-300 rounded focus:ring-blue-500 focus:border-blue-500"
+        // onChange={handleFileChange}
+      />
+    </div>
+  )}
+</div>
+
         <div className="grid md:grid-cols-1 md:gap-6">
           <div className="relative z-0 w-full mb-5 group">
             <textarea

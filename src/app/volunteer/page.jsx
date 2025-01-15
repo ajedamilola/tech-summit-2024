@@ -26,6 +26,7 @@ const Volunteer = () => {
     "Event Setup",
     "Logistics",
     "Social Media Support",
+    "Greeters",
     "Other (Please specify)",
   ];
 

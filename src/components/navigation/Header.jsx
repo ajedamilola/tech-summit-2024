@@ -156,7 +156,7 @@ const Header = () => {
               <Link href={"/"}>
                 <Image
                   className="w-20 h-10  object-cover"
-                  src="/logo.png"
+                  src="/logo1.png"
                   width={100}
                   height={50}
                   alt="SASK Logo"
