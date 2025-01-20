@@ -32,7 +32,7 @@ const links = [
 
   { href: "/attend", label: "Attend", id: 4 },
 
-  { href: "/exhibitor", label: "Exhibit", id: 3 },
+  { href: "https://forms.gle/s2Crn9cy3Y7sxPiy8", label: "Exhibit", id: 3 },
 
   { href: "/volunteer", label: "Volunteer ", id: 5 },
 
