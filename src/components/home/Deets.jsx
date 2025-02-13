@@ -80,7 +80,7 @@ const Deets = () => {
                   </ul>
                   <div className="mt-6 py-4 flex justify-center">
                     <Link
-                      href="/exhibitor"
+                      href="https://forms.gle/Q8e2Bn3SdWVrNfZw6"
                       className="text-white  flex justify-center items-center py-2 px-4 bg-orange-500  lg:w-auto lg:h-[40px] text-sm lg:text-lg"
                     >
                       Exhibit
