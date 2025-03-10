@@ -4,11 +4,11 @@ import Link from "next/link";
 
 const Sponsor = () => {
   const sponsors = [
-    // { img: "/sponsor-one", id: 1 },
-    // { img: "/alive", id: 2 },
+    { img: "/Govt", id: 1 },
+    { img: "/BDC", id: 2 },
     { img: "/sponsor-three", id: 3, link:"https://saskatoonchamber.com" },
-    // { img: "/sponsor-four", id: 4 },
-    // { img: "/naija", id: 5 },
+    { img: "/TD", id: 4 },
+    { img: "/WESK", id: 5 },
   ];
 
   return (
@@ -37,8 +37,8 @@ const Sponsor = () => {
                   }  mb-4 lg:mb-0`}
                 >
                   <Image
-                    width={500}
-                    height={500}
+                    width={300}
+                    height={300}
                     className="w-full h-auto object-cover"
                     src={sponsor.img + ".png"}
                     alt={`Sponsor ${sponsor.id}`}

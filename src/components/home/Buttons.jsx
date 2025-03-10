@@ -16,7 +16,7 @@ const Buttons = () => {
         data-aos-duration="1000"
       >
         <Link
-          href="https://forms.gle/Q8e2Bn3SdWVrNfZw6"
+          href="/" //https://forms.gle/Q8e2Bn3SdWVrNfZw6
           className="rounded-lg flex justify-center items-center px-8 py-2 text-xl bg-[#1D3466] text-[#fff] hover:bg-blue-600 duration-300 w-full"
         >
           Exhibit
