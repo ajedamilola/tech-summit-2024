@@ -211,7 +211,7 @@ const All = () => {
             width={500}
             height={500}
             className="shadow-md h-72 w-full object-cover"
-            src="/now.jpg"
+            src="/noww.jpg"
             alt=""
           />
 

@@ -33,10 +33,10 @@ const Speakers = () => {
     >
       <header className="section-head-parallax ">
         <h4 className="text-[#fff] text-center lg:text-5xl">
-          Meet Our Speakers
+          Meet Our Special Guest
         </h4>
         <p className="mt-3 text-white sm:mt-5  text-center md:mt-5 font-thin  mx-auto text-lg">
-        Our lineup of inspiring speakers includes accomplished entrepreneurs, industry experts, and thought leaders ready to share their stories and insights. From innovative business strategies to personal success journeys, these speakers will leave you empowered and equipped with practical tools for success. Stay tuned for the full roster of names you won’t want to miss!  
+        We are thrilled to introduce you to our special guest, a true luminary in their field, who will bring a unique perspective and invaluable insights to our event. This distinguished individual has made remarkable contributions to their industry, and their journey is nothing short of inspiring. Whether it's groundbreaking achievements, innovative thinking, or a compelling personal story, our special guest is sure to captivate and motivate you. Stay tuned as we reveal the name and details of this extraordinary individual—you won’t want to miss this opportunity to learn from the best! 
         </p>
       </header>
       {/* <ul className="lg:py-4 mx-4 lg:mx-0 px-4 flex  items-center flex-row justify-center lg:space-x-8 space-x-4  sticky top-0 w-full overflow-y-hidden z-10 lg:overflow-x-hidden overflow-x-scroll no-scrollbar">
