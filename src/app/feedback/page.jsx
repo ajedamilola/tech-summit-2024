@@ -39,7 +39,7 @@ const Feedback = () => {
             <div className="flex justify-center">
                 <div className="max-w-lg text-center font-semibold text-black mb-4 md:mb-6">
                     <p>
-                        Thank you for attending the first-ever Saskatoon Black Business Trade Show! Your feedback is incredibly valuable as we strive to improve our future events. Please take a few moments to complete this brief feedback form.
+                        Thank you for attending the Saskatoon Black Business Trade Show! Your feedback is incredibly valuable as we strive to improve our future events. Please take a few moments to complete this brief feedback form.
                     </p>
                 </div>
             </div>
