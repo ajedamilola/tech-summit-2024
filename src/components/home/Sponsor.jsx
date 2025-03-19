@@ -4,10 +4,10 @@ import Link from "next/link";
 
 const Sponsor = () => {
   const sponsors = [
-    { img: "/BDC", id: 1 },
-    { img: "/GOVT", id: 2 },
+    { img: "/TDD", id: 1 },
+    { img: "/BDC", id: 2 },
     { img: "/sponsor-three", id: 3, link:"https://saskatoonchamber.com" },
-    { img: "/TDD1", id: 4 },
+    { img: "/GOVT", id: 4 },
     { img: "/WESK", id: 5 },
   ];
 
