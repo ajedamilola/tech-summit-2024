@@ -5,10 +5,10 @@ import Link from "next/link";
 const Sponsor = () => {
   const sponsors = [
     { img: "/TDD", id: 1 },
-    { img: "/Gov", id: 2 },
+    { img: "/cana", id: 2 },
     { img: "/sponsor-three", id: 3, link:"https://saskatoonchamber.com" },
-    { img: "/BDC", id: 4 },
-    // { img: "/Gov", id: 6 },
+    { img: "/gov", id: 4 },
+    { img: "/BDC", id: 6 },
     { img: "/WESK", id: 5 },
   ];
 
@@ -32,7 +32,7 @@ const Sponsor = () => {
                 href={sponsor.link} target="_blank"
                   key={sponsor.id}
                   className={`${
-                    sponsor.id == 1 || sponsor.id == 5
+                    sponsor.id == 1 || sponsor.id == 6
                       ? "w-[50%] lg:w-1/6"
                       : "w-full lg:w-1/3"
                   }  mb-4 lg:mb-0`}
@@ -45,6 +45,7 @@ const Sponsor = () => {
                     alt={`Sponsor ${sponsor.id}`}
                   />
                   {sponsor.id==3 && <div className="text-white text-center">Main Sponsor</div>}
+                  {sponsor.id==2 && <div className="text-white text-center">Platinum Partner</div>}
                 </a>
               ))}
             </div>

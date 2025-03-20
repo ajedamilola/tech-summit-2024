@@ -33,7 +33,7 @@ const Speakers = () => {
     >
       <header className="section-head-parallax ">
         <h4 className="text-[#fff] text-center lg:text-5xl">
-          Meet Our Special Guest
+          Meet Our Special Guests
         </h4>
         <p className="mt-3 text-white sm:mt-5  text-center md:mt-5 font-thin  mx-auto text-lg">
         We are thrilled to introduce you to our special guest, a true luminary in their field, who will bring a unique perspective and invaluable insights to our event. This distinguished individual has made remarkable contributions to their industry, and their journey is nothing short of inspiring. Whether it's groundbreaking achievements, innovative thinking, or a compelling personal story, our special guest is sure to captivate and motivate you. Stay tuned as we reveal the name and details of this extraordinary individual—you won’t want to miss this opportunity to learn from the best! 
