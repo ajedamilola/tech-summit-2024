@@ -77,38 +77,49 @@ const All = () => {
           </Link>
         </div>
       </div>
-      <div data-aos="zoom-out-up" data-aos-duration="1000">
-        <div className="h-72 mx-auto  w-auto aspect-square relative group cursor-pointer ">
+
+      <div
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+      >
+        <div className="h-72 mx-auto relative group cursor-pointer  w-auto aspect-square">
           <Image
             width={500}
             height={500}
-            className="shadow-md w-full object-cover aspect-square"
-            src="/speaker1.jpg"
+            className="shadow-md h-72 w-full object-cover"
+            src="/mla.jpg"
             alt=""
           />
+
           <div className=" flex justify-center items-center text-center  group-hover:flex absolute  p-2  bg-red-500 w-full  text-[#fff] bg-opacity-75 bottom-0 text-xl">
-            JASON AEBIG <br />
+            MLA JAMIE MARTENS 
           </div>
         </div>
         <p className="text-[#fff] text-center py-3 font-thin">
-          CEO, SASKATOON CHAMBER OF COMMERCE
+          PROVINCIAL SECRETARY-GOVT OF SASKATCHEWAN
         </p>
         <div className="flex justify-center items-center  px-0 l py-2 gap-x-4">
           {/* <Link
-            href={"https://www.instagram.com/jasonaebig/"}
+            href={"https://www.instagram.com/owojorigbenga/"}
             className="text-[#fff]"
           >
             <FaInstagram className="text-lg " />
           </Link> */}
           <Link
-            href={"http://linkedin.com/in/jason-aebig-02b7681b"}
+            href={
+              " "
+            }
             className="text-[#fff]"
           >
-            <FaLinkedinIn className="text-lg " />
+            {/* <FaLinkedinIn className="text-lg " /> */}
           </Link>
-          {/* <Link href={"https://x.com/JasonAebig?s=20"} className="text-[#fff]">
+          {/* <Link
+            href={"https://x.com/DrJohnOwojori?s=20"}
+            className="text-[#fff]"
+          >
             <FaTwitter className="text-lg " />
-          </Link> */}
+          </Link>  */}
         </div>
       </div>
 
@@ -155,52 +166,43 @@ const All = () => {
         </div>
       </div>
 
-      <div
-        data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="1000"
-      >
-        <div className="h-72 mx-auto relative group cursor-pointer  w-auto aspect-square">
+
+      <div data-aos="zoom-out-up" data-aos-duration="1000">
+        <div className="h-72 mx-auto  w-auto aspect-square relative group cursor-pointer ">
           <Image
             width={500}
             height={500}
-            className="shadow-md h-72 w-full object-cover"
-            src="/mla.jpg"
+            className="shadow-md w-full object-cover aspect-square"
+            src="/speaker1.jpg"
             alt=""
           />
-
           <div className=" flex justify-center items-center text-center  group-hover:flex absolute  p-2  bg-red-500 w-full  text-[#fff] bg-opacity-75 bottom-0 text-xl">
-            MLA JAMIE MARTENS 
+            JASON AEBIG <br />
           </div>
         </div>
         <p className="text-[#fff] text-center py-3 font-thin">
-          PROVINCIAL SECRETARY-GOVT OF SASKATCHEWAN
+          CEO, SASKATOON CHAMBER OF COMMERCE
         </p>
         <div className="flex justify-center items-center  px-0 l py-2 gap-x-4">
           {/* <Link
-            href={"https://www.instagram.com/owojorigbenga/"}
+            href={"https://www.instagram.com/jasonaebig/"}
             className="text-[#fff]"
           >
             <FaInstagram className="text-lg " />
           </Link> */}
           <Link
-            href={
-              " "
-            }
+            href={"http://linkedin.com/in/jason-aebig-02b7681b"}
             className="text-[#fff]"
           >
-            {/* <FaLinkedinIn className="text-lg " /> */}
+            <FaLinkedinIn className="text-lg " />
           </Link>
-          {/* <Link
-            href={"https://x.com/DrJohnOwojori?s=20"}
-            className="text-[#fff]"
-          >
+          {/* <Link href={"https://x.com/JasonAebig?s=20"} className="text-[#fff]">
             <FaTwitter className="text-lg " />
-          </Link>  */}
+          </Link> */}
         </div>
       </div>
-      
-      
+
+            
       <div
         data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
