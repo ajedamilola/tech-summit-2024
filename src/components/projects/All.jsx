@@ -69,12 +69,12 @@ const All = () => {
           >
             <FaInstagram className="text-lg " />
           </Link> */}
-          <Link
-            href={"http://linkedin.com/in/bev-dubois-37054495"}
+          {/* <Link
+            href={""}
             className="text-[#fff]"
           >
             <FaLinkedinIn className="text-lg " />
-          </Link>
+          </Link> */}
         </div>
       </div>
 
@@ -190,12 +190,12 @@ const All = () => {
           >
             <FaInstagram className="text-lg " />
           </Link> */}
-          <Link
+          {/* <Link
             href={"http://linkedin.com/in/jason-aebig-02b7681b"}
             className="text-[#fff]"
           >
             <FaLinkedinIn className="text-lg " />
-          </Link>
+          </Link> */}
           {/* <Link href={"https://x.com/JasonAebig?s=20"} className="text-[#fff]">
             <FaTwitter className="text-lg " />
           </Link> */}

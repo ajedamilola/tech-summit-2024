@@ -38,7 +38,7 @@ const links = [
 
   { href: "/volunteer", label: "Volunteer ", id: 5 },
 
-  { href: "/", label: "Pitch"},
+  { href: "/pitch", label: "Pitch"},
 
   { href: "/", label: "Buiness Directory", id: 6 },
   
