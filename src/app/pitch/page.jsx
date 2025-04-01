@@ -104,11 +104,18 @@ const Pitch = () => {
                     For more information about the competition, please contact us at
                     info@saskblackbusiness.com or +1 (639) 998-2423.
                 </p>
-                <footer className="pitch-footer bg-green-600 text-white py-4 text-center rounded-lg shadow-md">
+                <Image
+                    src="/cana2.jpg"
+                    alt="Pitch Banner"
+                    width={800}
+                    height={300}
+                    className="mx-auto rounded-lg shadow-lg mt-10"
+                />
+                {/* <footer className="pitch-footer bg-green-600 text-white py-4 text-center rounded-lg shadow-md">
                     <p>
                         Proudly Sponsored by the Prairies Economic Development of Canada
                     </p>
-                </footer>
+                </footer> */}
             </section>
         </div>
     );
