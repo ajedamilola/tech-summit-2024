@@ -9,9 +9,9 @@ const Pitch = () => {
         <div className="pitch-page bg-gray-50 text-gray-800">
             <header className="pitch-header bg-green-800 text-white py-10 text-center">
                 <Image
-                    src="/pitch-banner.jpg"
+                    src="/pitch-banner.png"
                     alt="Pitch Banner"
-                    width={400}
+                    width={800}
                     height={300}
                     className="mx-auto rounded-lg shadow-lg mt-10"
                 />
